@@ -1,37 +1,39 @@
-# 🤖 Awesome GitHub Copilot
-[![Powered by Awesome Copilot](https://img.shields.io/badge/Powered_by-Awesome_Copilot-blue?logo=githubcopilot)](https://aka.ms/awesome-github-copilot) [![GitHub contributors from allcontributors.org](https://img.shields.io/github/all-contributors/github/awesome-copilot?color=ee8449)](#contributors-)
+# ⚡ Power Platform Copilot Agents
 
+A focused collection of custom GitHub Copilot agents, instructions, and skills for **Power Platform**, **Dynamics 365**, **Dataverse**, **Power Automate**, **Power BI**, and **technical documentation authoring** in VS Code.
 
-A community created collection of custom agents and instructions to supercharge your GitHub Copilot experience across different domains, languages, and use cases.
+## 🚀 What is this repository?
 
-## 🚀 What is Awesome GitHub Copilot?
+This repository provides a curated toolkit for enhancing GitHub Copilot in VS Code with specialized resources for the Microsoft Power Platform ecosystem:
 
-This repository provides a comprehensive toolkit for enhancing GitHub Copilot with specialized:
+- **👉 [Agents](docs/README.agents.md)** - Specialized GitHub Copilot agents for Power Platform, Power BI, Power Automate, and documentation workflows
+- **👉 [Instructions](docs/README.instructions.md)** - Coding standards and best practices for Dataverse, Power Apps, Power BI, PCF controls, Power Automate, and PowerShell
+- **👉 [Hooks](docs/README.hooks.md)** - Automated session hooks for development workflows
+- **👉 [Skills](docs/README.skills.md)** - Self-contained skill packs for Dataverse Python SDK, Power Apps, Power BI, Power Automate flows, and documentation generation
+- **👉 [Plugins](docs/README.plugins.md)** - Installable plugin bundles covering Dataverse, PCF development, Power Apps, Power BI, and the Power Platform MCP connector
 
-- **👉 [Awesome Agents](docs/README.agents.md)** - Specialized GitHub Copilot agents that integrate with MCP servers to provide enhanced capabilities for specific workflows and tools
-- **👉 [Awesome Instructions](docs/README.instructions.md)** - Comprehensive coding standards and best practices that apply to specific file patterns or entire projects
-- **👉 [Awesome Hooks](docs/README.hooks.md)** - Automated workflows triggered by specific events during development, testing, and deployment
-- **👉 [Awesome Agentic Workflows](docs/README.workflows.md)** - AI-powered repository automations that run coding agents in GitHub Actions with natural language instructions
-- **👉 [Awesome Skills](docs/README.skills.md)** - Self-contained folders with instructions and bundled resources that enhance AI capabilities for specialized tasks
-- **👉 [Awesome Plugins](docs/README.plugins.md)** - Curated plugins of related agents and skills organized around specific themes and workflows
-- **👉 [Awesome Cookbook Recipes](cookbook/README.md)** - Practical, copy-paste-ready code snippets and real-world examples for working with GitHub Copilot tools and features
+## 🎯 Scope
+
+This repository focuses exclusively on:
+
+| Area | Coverage |
+|------|----------|
+| **Power Platform** | Power Apps (canvas & code), Power Automate, Power Pages, PCF controls |
+| **Power BI** | DAX, data modeling, report design, performance, security (RLS) |
+| **Dataverse / Dynamics 365** | Python SDK, API, authentication, best practices, agentic workflows |
+| **Power Platform MCP** | Connector development, MCP integration, FlowStudio |
+| **Documentation** | Technical writing, Microsoft Docs contribution, doc-on-change |
 
 ## 🌟 Featured Plugins
 
-Discover our curated plugins of agents and skills organized around specific themes and workflows.
-
-| Name | Description | Items | Tags |
-| ---- | ----------- | ----- | ---- |
-| [Awesome Copilot](plugins/awesome-copilot/README.md) | Meta skills that help you discover and generate curated GitHub Copilot agents, collections, instructions, and skills. | 5 items | github-copilot, discovery, meta, prompt-engineering, agents |
-| [Copilot SDK](plugins/copilot-sdk/README.md) | Build applications with the GitHub Copilot SDK across multiple programming languages. Includes comprehensive instructions for C#, Go, Node.js/TypeScript, and Python to help you create AI-powered applications. | 5 items | copilot-sdk, sdk, csharp, go, nodejs, typescript, python, ai, github-copilot |
-| [Partners](plugins/partners/README.md) | Custom agents that have been created by GitHub partners | 20 items | devops, security, database, cloud, infrastructure, observability, feature-flags, cicd, migration, performance |
+Discover our curated plugins of agents and skills organized around Power Platform themes and workflows.
 
 
 ## How to Install Customizations
 
-To make it easy to add these customizations to your editor, we have created an [MCP Server](https://developer.microsoft.com/blog/announcing-awesome-copilot-mcp-server) that provides functionality for searching and installing instructions, agents, and skills directly from this repository. You'll need to have Docker installed and running to run the MCP server locally.
+You can use the [MCP Server](https://developer.microsoft.com/blog/announcing-awesome-copilot-mcp-server) to search and install instructions, agents, and skills directly from this repository into VS Code. Docker is required to run the MCP server locally.
 
-[![Install in VS Code](https://img.shields.io/badge/VS_Code-Install-0098FF?logo=visualstudiocode&logoColor=white)](https://aka.ms/awesome-copilot/mcp/vscode) [![Install in VS Code Insiders](https://img.shields.io/badge/VS_Code_Insiders-Install-24bfa5?logo=visualstudiocode&logoColor=white)](https://aka.ms/awesome-copilot/mcp/vscode-insiders) [![Install in Visual Studio](https://img.shields.io/badge/Visual_Studio-Install-C16FDE?logo=visualstudio&logoColor=white)](https://aka.ms/awesome-copilot/mcp/vs)
+[![Install in VS Code](https://img.shields.io/badge/VS_Code-Install-0098FF?logo=visualstudiocode&logoColor=white)](https://aka.ms/awesome-copilot/mcp/vscode)
 
 <details>
 <summary>Show MCP Server JSON configuration</summary>
@@ -101,22 +103,16 @@ Hooks enable automated workflows triggered by specific events during GitHub Copi
 
 [Agentic Workflows](https://github.github.com/gh-aw) are AI-powered repository automations that run coding agents in GitHub Actions. Defined in markdown with natural language instructions, they enable event-triggered and scheduled automation — from issue triage to daily reports.
 
-## 🎯 Why Use Awesome GitHub Copilot?
+## 🎯 Why Use This?
 
-- **Productivity**: Pre-built agents and instructions save time and provide consistent results.
-- **Best Practices**: Benefit from community-curated coding standards and patterns.
-- **Specialized Assistance**: Access expert-level guidance through specialized custom agents.
-- **Continuous Learning**: Stay updated with the latest patterns and practices across technologies.
+- **Power Platform focused**: Everything here is relevant to Power Platform, Dynamics 365, and Dataverse development.
+- **Documentation ready**: Includes agents and skills for technical writing and Microsoft Docs contribution.
+- **VS Code native**: Built for the VS Code GitHub Copilot agent experience.
+- **MCP-connected**: Includes MCP connector and FlowStudio integration for Power Platform.
 
 ## 🤝 Contributing
 
-We welcome contributions! Please see our [Contributing Guidelines](CONTRIBUTING.md) for details on how to:
-
-- Add new instructions, hooks, workflows, agents, or skills
-- Improve existing content
-- Report issues or suggest enhancements
-
-For AI coding agents working with this project, refer to [AGENTS.md](AGENTS.md) for detailed technical guidance on development workflows, setup commands, and contribution standards.
+Contributions focused on Power Platform, Dynamics 365, Dataverse, Power Automate, Power BI, and technical documentation are welcome! Please see our [Contributing Guidelines](CONTRIBUTING.md) for details.
 
 ### Quick Contribution Guide
 
@@ -153,7 +149,7 @@ The customizations in this repository are sourced from and created by third-part
 
 ---
 
-**Ready to supercharge your coding experience?** Start exploring our [instructions](docs/README.instructions.md), [hooks](docs/README.hooks.md), [skills](docs/README.skills.md), [agentic workflows](docs/README.workflows.md), and [custom agents](docs/README.agents.md)!
+**Ready to supercharge your Power Platform development?** Start with our [agents](docs/README.agents.md), [instructions](docs/README.instructions.md), [skills](docs/README.skills.md), and [plugins](docs/README.plugins.md)!
 
 ## Contributors ✨
 
