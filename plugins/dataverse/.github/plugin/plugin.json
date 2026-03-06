@@ -12,6 +12,10 @@
     "mcp"
   ],
   "skills": [
-    "./skills/mcp-configure"
-  ]
+    "./skills/dataverse-python-quickstart/",
+    "./skills/dataverse-python-production-code/",
+    "./skills/dataverse-python-advanced-patterns/",
+    "./skills/dataverse-python-usecase-builder/"
+  ],
+  "featured": true
 }

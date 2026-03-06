@@ -1,20 +1,36 @@
-# 🤖 Awesome GitHub Copilot
+# 🤖 Awesome GitHub Copilot — Power Platform & Dynamics 365 Edition
 [![Powered by Awesome Copilot](https://img.shields.io/badge/Powered_by-Awesome_Copilot-blue?logo=githubcopilot)](https://aka.ms/awesome-github-copilot) [![GitHub contributors from allcontributors.org](https://img.shields.io/github/all-contributors/github/awesome-copilot?color=ee8449)](#contributors-)
 
 
-A community created collection of custom agents and instructions to supercharge your GitHub Copilot experience across different domains, languages, and use cases.
+A curated collection of GitHub Copilot agents, instructions, skills, and plugins focused on **Power Platform**, **Dynamics 365 / Dataverse**, **Power BI**, **technical documentation authoring**, and **C#/.NET development** for those domains.
 
-## 🚀 What is Awesome GitHub Copilot?
+> **C# resources are intentionally preserved.** This repository keeps all C# and .NET assets that are useful for Dataverse plugin development, Dynamics 365 customization, PCF (Power Apps Component Framework), Dataverse SDK usage, custom workflow activities, .NET-based automation, and technical documentation for these platforms.
 
-This repository provides a comprehensive toolkit for enhancing GitHub Copilot with specialized:
+## 🚀 What is in this Repository?
 
-- **👉 [Awesome Agents](docs/README.agents.md)** - Specialized GitHub Copilot agents that integrate with MCP servers to provide enhanced capabilities for specific workflows and tools
-- **👉 [Awesome Instructions](docs/README.instructions.md)** - Comprehensive coding standards and best practices that apply to specific file patterns or entire projects
+This repository provides a focused toolkit for enhancing GitHub Copilot with specialized resources for the Microsoft Power Platform ecosystem:
+
+- **👉 [Awesome Agents](docs/README.agents.md)** - Specialized GitHub Copilot agents for Power Platform expert guidance, Dynamics 365 development, Power BI analytics, documentation authoring, and C#/.NET Dataverse work
+- **👉 [Awesome Instructions](docs/README.instructions.md)** - Coding standards and best practices for Power Platform, PCF, Dataverse, Power BI, Power Automate, and C# plugin/SDK development
 - **👉 [Awesome Hooks](docs/README.hooks.md)** - Automated workflows triggered by specific events during development, testing, and deployment
 - **👉 [Awesome Agentic Workflows](docs/README.workflows.md)** - AI-powered repository automations that run coding agents in GitHub Actions with natural language instructions
-- **👉 [Awesome Skills](docs/README.skills.md)** - Self-contained folders with instructions and bundled resources that enhance AI capabilities for specialized tasks
-- **👉 [Awesome Plugins](docs/README.plugins.md)** - Curated plugins of related agents and skills organized around specific themes and workflows
-- **👉 [Awesome Cookbook Recipes](cookbook/README.md)** - Practical, copy-paste-ready code snippets and real-world examples for working with GitHub Copilot tools and features
+- **👉 [Awesome Skills](docs/README.skills.md)** - Self-contained folders with instructions and bundled resources for Power Platform, Power BI, Dataverse SDK, C# patterns, and documentation tasks
+- **👉 [Awesome Plugins](docs/README.plugins.md)** - Curated plugins bundling related agents and skills for Power Platform, Dataverse, PCF, Power BI, and C#/.NET development
+
+## 🎯 Target Scope
+
+This repository is focused on:
+
+| Domain | Coverage |
+|--------|----------|
+| **Power Platform** | Power Apps (canvas, model-driven, code-first), Power Pages, Copilot Studio, connectors |
+| **Dynamics 365** | Plugin development, customization, CRM integration, solution management |
+| **Dataverse** | SDK for .NET, Web API, FetchXML, early-bound entities, security model |
+| **Power Automate** | Flow design, Azure Logic Apps integration, connectors |
+| **Power BI** | DAX, data modeling, report design, performance, ALM |
+| **PCF** | Power Apps Component Framework — code components for model-driven and canvas apps |
+| **C# / .NET** | Dataverse plugins, custom workflow activities, PCF controls, SDK integrations, .NET automation |
+| **Technical Docs** | Microsoft Learn contributions, documentation authoring, Markdown best practices |
 
 ## 🌟 Featured Plugins
 
@@ -22,9 +38,10 @@ Discover our curated plugins of agents and skills organized around specific them
 
 | Name | Description | Items | Tags |
 | ---- | ----------- | ----- | ---- |
-| [Awesome Copilot](plugins/awesome-copilot/README.md) | Meta skills that help you discover and generate curated GitHub Copilot agents, collections, instructions, and skills. | 5 items | github-copilot, discovery, meta, prompt-engineering, agents |
-| [Copilot SDK](plugins/copilot-sdk/README.md) | Build applications with the GitHub Copilot SDK across multiple programming languages. Includes comprehensive instructions for C#, Go, Node.js/TypeScript, and Python to help you create AI-powered applications. | 5 items | copilot-sdk, sdk, csharp, go, nodejs, typescript, python, ai, github-copilot |
-| [Partners](plugins/partners/README.md) | Custom agents that have been created by GitHub partners | 20 items | devops, security, database, cloud, infrastructure, observability, feature-flags, cicd, migration, performance |
+| [C# .NET Development](plugins/csharp-dotnet-development/README.md) | Essential prompts, instructions, and chat modes for C# and .NET development including Dataverse plugins, SDK integrations, and testing. | 15 items | csharp, dotnet, aspnet, testing |
+| [Dataverse](plugins/dataverse/README.md) | Comprehensive collection for Microsoft Dataverse integrations. Includes MCP setup and SDK tooling for Power Platform and Dynamics 365. | 4 items | dataverse, mcp |
+| [PCF Development](plugins/pcf-development/README.md) | Complete toolkit for developing custom code components using Power Apps Component Framework (PCF) for model-driven and canvas apps. | 0 items | power-apps, pcf, component-framework, typescript, power-platform |
+| [Power BI Development](plugins/power-bi-development/README.md) | Comprehensive Power BI development resources including data modeling, DAX optimization, performance tuning, visualization design, security best practices, and DevOps/ALM guidance. | 8 items | power-bi, dax, data-modeling, performance, visualization, security, devops, business-intelligence |
 
 
 ## How to Install Customizations
@@ -101,19 +118,21 @@ Hooks enable automated workflows triggered by specific events during GitHub Copi
 
 [Agentic Workflows](https://github.github.com/gh-aw) are AI-powered repository automations that run coding agents in GitHub Actions. Defined in markdown with natural language instructions, they enable event-triggered and scheduled automation — from issue triage to daily reports.
 
-## 🎯 Why Use Awesome GitHub Copilot?
+## 🎯 Why Use This Repository?
 
-- **Productivity**: Pre-built agents and instructions save time and provide consistent results.
-- **Best Practices**: Benefit from community-curated coding standards and patterns.
-- **Specialized Assistance**: Access expert-level guidance through specialized custom agents.
-- **Continuous Learning**: Stay updated with the latest patterns and practices across technologies.
+- **Power Platform Expertise**: Pre-built agents and instructions tailored to Power Platform, D365, Dataverse, and Power BI workflows.
+- **C# and .NET Preserved**: C# resources for Dataverse plugin development, PCF controls, custom workflow activities, and SDK integrations are fully included — not removed.
+- **Documentation Ready**: Resources for technical writers and Microsoft Learn contributors.
+- **Practical and Production-Ready**: Content curated for real enterprise Power Platform development, not demos.
+- **Aligned with Microsoft Best Practices**: Guidance follows official Microsoft documentation, Power Platform CLI patterns, and Dataverse SDK conventions.
 
 ## 🤝 Contributing
 
-We welcome contributions! Please see our [Contributing Guidelines](CONTRIBUTING.md) for details on how to:
+We welcome contributions focused on Power Platform, Dynamics 365, Dataverse, Power BI, Power Automate, PCF, and relevant C#/.NET development. Please see our [Contributing Guidelines](CONTRIBUTING.md) for details on how to:
 
-- Add new instructions, hooks, workflows, agents, or skills
-- Improve existing content
+- Add new instructions, hooks, workflows, agents, or skills for the target domains
+- Improve existing Power Platform / Dynamics 365 content
+- Add C# resources useful for Dataverse plugin development, PCF, or SDK integrations
 - Report issues or suggest enhancements
 
 For AI coding agents working with this project, refer to [AGENTS.md](AGENTS.md) for detailed technical guidance on development workflows, setup commands, and contribution standards.
@@ -128,13 +147,13 @@ For AI coding agents working with this project, refer to [AGENTS.md](AGENTS.md) 
 ## 📖 Repository Structure
 
 ```plaintext
-├── instructions/     # Coding standards and best practices (.instructions.md)
-├── agents/           # AI personas and specialized modes (.agent.md)
+├── instructions/     # Coding standards for Power Platform, PCF, Dataverse, Power BI, C# plugins
+├── agents/           # Specialized agents for Dynamics 365, Power BI, docs, and C#/.NET
 ├── hooks/            # Automated hooks for Copilot coding agent sessions
 ├── workflows/        # Agentic Workflows for GitHub Actions automation
-├── plugins/          # Installable plugins bundling related items
+├── plugins/          # Installable plugins for Power Platform, Dataverse, PCF, and C#/.NET
 ├── scripts/          # Utility scripts for maintenance
-└── skills/           # AI capabilities for specialized tasks
+└── skills/           # AI skills for Power Platform, Power BI, Dataverse, C# patterns, and docs
 ```
 
 ## 📄 License

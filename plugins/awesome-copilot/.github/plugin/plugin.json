@@ -1,6 +1,6 @@
 {
   "name": "awesome-copilot",
-  "description": "Meta prompts that help you discover and generate curated GitHub Copilot agents, instructions, prompts, and skills.",
+  "description": "Meta plugin for the Power Platform and Dynamics 365 focused GitHub Copilot resource collection. Install this to get started with Power Platform, Dataverse, Power BI, and C#/.NET development assistance.",
   "version": "1.0.0",
   "author": {
     "name": "Awesome Copilot Community"
@@ -13,14 +13,5 @@
     "meta",
     "prompt-engineering",
     "agents"
-  ],
-  "agents": [
-    "./agents"
-  ],
-  "skills": [
-    "./skills/suggest-awesome-github-copilot-skills",
-    "./skills/suggest-awesome-github-copilot-instructions",
-    "./skills/suggest-awesome-github-copilot-prompts",
-    "./skills/suggest-awesome-github-copilot-agents"
   ]
 }

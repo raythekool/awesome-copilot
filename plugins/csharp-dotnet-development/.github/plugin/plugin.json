@@ -14,16 +14,23 @@
     "testing"
   ],
   "agents": [
-    "./agents"
+    "./agents/CSharpExpert.md",
+    "./agents/csharp-dotnet-janitor.md",
+    "./agents/expert-dotnet-software-engineer.md",
+    "./agents/dotnet-upgrade.md",
+    "./agents/semantic-kernel-dotnet.md"
   ],
   "skills": [
-    "./skills/csharp-async",
-    "./skills/aspnet-minimal-api-openapi",
-    "./skills/csharp-xunit",
-    "./skills/csharp-nunit",
-    "./skills/csharp-mstest",
-    "./skills/csharp-tunit",
-    "./skills/dotnet-best-practices",
-    "./skills/dotnet-upgrade"
-  ]
+    "./skills/csharp-async/",
+    "./skills/csharp-xunit/",
+    "./skills/csharp-nunit/",
+    "./skills/csharp-mstest/",
+    "./skills/csharp-tunit/",
+    "./skills/csharp-docs/",
+    "./skills/dotnet-best-practices/",
+    "./skills/dotnet-upgrade/",
+    "./skills/nuget-manager/",
+    "./skills/ef-core/"
+  ],
+  "featured": true
 }

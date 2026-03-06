@@ -13,5 +13,6 @@
     "component-framework",
     "typescript",
     "power-platform"
-  ]
+  ],
+  "featured": true
 }

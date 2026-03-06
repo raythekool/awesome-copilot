@@ -16,9 +16,7 @@
     "aspnet"
   ],
   "agents": [
-    "./agents"
-  ],
-  "skills": [
-    "./skills/openapi-to-application-code"
+    "./agents/CSharpExpert.md",
+    "./agents/expert-dotnet-software-engineer.md"
   ]
 }
